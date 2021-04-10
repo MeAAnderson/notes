@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(245, 243, 237);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+h1{
+    color:  rgb(107, 92, 47);
+}
+#new-task{
+   height: 10vh;
+   width: 20vw;
+   font-size: 5vh;
+  border-style: groove;
+  border-radius: 5px;
+  border-color: rgb(241, 225, 175);
+  background-color: rgb(245, 243, 237);
+  color:  rgb(107, 92, 47);
+}
+#new-task-form{
+    
+}
+#title, #description, #submit-button, #cancel-button {
+    border-style: groove;
+  border-radius: 5px;
+  border-color: rgb(241, 225, 175);
+  background-color: rgb(245, 243, 237);
+  color:  rgb(107, 92, 47);
+}
+#list {
+  display: flex;
+  justify-content: center;
+}
+.completed {
+  background-color: rgb(182, 196, 154);
+  border-style: solid;
+  border-color: yellowgreen;
+  border-radius: 5px;
+
+  max-width: 360px;
+  min-width: 160px;
+  margin: 1em;
+  
+}
+.not-completed {
+  background-color: rgb(253, 168, 129);
+  border-style: solid;
+  border-color: tomato;
+  border-radius: 5px;
+
+  max-width: 360px;
+  min-width: 200px;
+  margin: 1em;
+  
+}
+.remove-list-item-button {
+  float: right;
+  margin: 0.2em;
+  border-style: groove;
+  border-radius: 5px;
+  border-color: rgb(241, 225, 175);
+  background-color: rgb(245, 243, 237);
+  color:  rgb(107, 92, 47);
+}
+.name {
+  margin: 0.5em;
+}
+.description {
+  margin: 1em;
+}
+.completed-list-item-button {
+  margin: 0.5em;
+  border-style: groove;
+  border-radius: 5px;
+  border-color: rgb(241, 225, 175);
+  background-color: rgb(245, 243, 237);
+  color:  rgb(107, 92, 47);
+}
